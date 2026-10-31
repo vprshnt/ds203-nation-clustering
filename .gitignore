@@ -1,0 +1,18 @@
+# --- project data: raw WDI download is large, do not commit it ---
+data/raw/*
+!data/raw/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
